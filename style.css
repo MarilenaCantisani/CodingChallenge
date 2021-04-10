@@ -1,0 +1,78 @@
+body {
+ background-image:url(background.jpg);
+ background-size: 1550px 1000px;
+ background-position: -65px 0px;
+}
+
+.conteiner {
+  box-sizing:border-box;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding: 80px;
+  margin-top: 30px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.conteiner:last-child {
+  color: white;
+}
+
+header, nav {
+  text-align: center;
+}
+
+.brandidentity > img {
+  width: 25%;
+}
+.brandidentity > div {
+  color: #00dd00;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+.menù {
+  background-color: #00dd00;
+  height: 35px;
+  line-height: 35px;
+}
+.menù button {
+  border: 0.2px solid black;
+  background-color: white;
+}
+
+.monopattini {
+  margin-top: 20px;
+}
+.monopattini > div {
+  font-size: 14px;
+}
+.monopattini > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.street:before {
+  content: "\21A6";
+}
+
+#carica1, #carica2, #carica3 {
+  border: 12px solid;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+#carica1 {
+  border-color: #f5b453;
+  width: 280px;
+}
+#carica2 {
+  border-color: #1ec31e;
+  width: 500px;
+}
+#carica3 {
+  border-color: #be4141;
+  width: 110px;
+}
